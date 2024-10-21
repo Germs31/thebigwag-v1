@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    padding: 16px;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #5874cb;
+    font-weight: 500;
+}
+
+.navlink {
+    font-weight: 500;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    color: #5874cb;
+}
+
+
+

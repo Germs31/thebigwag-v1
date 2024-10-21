@@ -1,12 +1,57 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+/** Dark theme primary colors */
+--color-primary-a0: #3c64c4;
+--color-primary-a10: #5874cb;
+--color-primary-a20: #7084d2;
+--color-primary-a30: #8694d9;
+--color-primary-a40: #9ba5df;
+--color-primary-a50: #afb7e6;
+
+/** Dark theme surface colors */
+--color-surface-a0: #121212;
+--color-surface-a10: #282828;
+--color-surface-a20: #3f3f3f;
+--color-surface-a30: #575757;
+--color-surface-a40: #717171;
+--color-surface-a50: #8b8b8b;
+
+/** Dark theme mixed surface colors */
+--color-surface-mixed-a0: #191a21;
+--color-surface-mixed-a10: #2e2f36;
+--color-surface-mixed-a20: #45454c;
+--color-surface-mixed-a30: #5c5d63;
+--color-surface-mixed-a40: #75767b;
+--color-surface-mixed-a50: #8f9094;
+
 }
 
+
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root {/** Dark theme primary colors */
+    --color-primary-a0: #3c64c4;
+    --color-primary-a10: #5874cb;
+    --color-primary-a20: #7084d2;
+    --color-primary-a30: #8694d9;
+    --color-primary-a40: #9ba5df;
+    --color-primary-a50: #afb7e6;
+    
+    /** Dark theme surface colors */
+    --color-surface-a0: #121212;
+    --color-surface-a10: #282828;
+    --color-surface-a20: #3f3f3f;
+    --color-surface-a30: #575757;
+    --color-surface-a40: #717171;
+    --color-surface-a50: #8b8b8b;
+    
+    /** Dark theme mixed surface colors */
+    --color-surface-mixed-a0: #191a21;
+    --color-surface-mixed-a10: #2e2f36;
+    --color-surface-mixed-a20: #45454c;
+    --color-surface-mixed-a30: #5c5d63;
+    --color-surface-mixed-a40: #75767b;
+    --color-surface-mixed-a50: #8f9094;
+  
   }
 }
 
@@ -17,8 +62,8 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: #fff;
+  background: var(--color-surface-a0);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
