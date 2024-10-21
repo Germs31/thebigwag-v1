@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
 import RainPug from '@/app/assets/images/raincoat-pug.jpg'
+import Card from "./components/Card/Card";
 
 export default function Home() {
   return (
@@ -19,6 +20,15 @@ export default function Home() {
             width={300}
             height={400}/>
         </div>
+      </div>
+
+      {/* Blog Grid */}
+      <div className={styles.blogGrid}>
+          {
+            [1,2,3,4,5,6].map(() => (
+              <Card/>
+            ))
+          }
       </div>
     </main>
   );

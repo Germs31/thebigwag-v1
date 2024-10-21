@@ -14,3 +14,17 @@
 .heroImage {
     width: 25%;
 }
+
+/* blog grid */
+
+.blogGrid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
