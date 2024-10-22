@@ -80,6 +80,10 @@ a {
   text-decoration: none;
 }
 
+/* textarea:focus, input:focus{
+  
+} */
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

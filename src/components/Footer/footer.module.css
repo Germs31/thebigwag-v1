@@ -1,12 +1,21 @@
 .footer {
+    height: 150px;
+    width: 100%;
     display: flex;
+    padding: 20px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
     width: 50%;
 }
 .pageLinks {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pageAttributes{
@@ -31,4 +40,12 @@
 .subscribe {
     width: 50%;
     display: flex;
+}
+
+.subscribe input {
+    outline: none;
+}
+/* Phones */
+@media only screen and (max-width: 600px) {
+
 }

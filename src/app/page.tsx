@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
-import RainPug from '@/app/assets/images/raincoat-pug.jpg'
-import Card from "./components/Card/Card";
+import RainPug from '@/assets/images/raincoat-pug.jpg'
+import Card from "../components/Card/Card";
 
 export default function Home() {
   return (

@@ -17,7 +17,7 @@ const Footer = () => {
                     }
                 </div>
                 <div className={styles.subscribe}>
-                    <input type="text"/>
+                    <input type="email"/>
                     <button>Subscribe</button>
                 </div>
             </div>
