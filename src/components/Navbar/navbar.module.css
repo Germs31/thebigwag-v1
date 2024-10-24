@@ -4,17 +4,25 @@
     background: transparent;
     display: flex;
     justify-content: space-between;
+    background-color: #282828;
 }
 
 .logo {
-    color: #5874cb;
+    color: #fff;
     font-weight: 500;
 }
 
 .navlink {
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 5px;
     cursor: pointer;
+    letter-spacing: .5px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+
 }
 
 .hamburgerMenu {
@@ -23,12 +31,12 @@
 
 .bar {
     height: 1px;
-    background: #5874cb;
+    background: #fff;
     width: 100%;
 }
 
 .navlink:hover {
-    color: #5874cb;
+    color: #3c64c4;
 }
 
 .mobileMenu {
@@ -72,27 +80,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .social {
-        display: none;
-    }
 
-    /* .logo {
-      text-align: left;
-    } */
 }
 
 @media screen and (max-width: 768px) {
-    /* .logo {
-      font-size: 24px;
-    } */
+
 }
 
 @media screen and (max-width: 640px) {
-    .links {
-        justify-content: flex-end;
-    }
 
-    .link {
-        display: none;
-    }
 }
