@@ -4,12 +4,54 @@
     margin: 0 15px 30px;
     overflow: hidden;
     border-radius: 28px;
+    cursor: pointer;
 }
 
 .cardLink {
     display: block;
     padding: 30px 20px;
-    background-color: #121212;
+    background-color:  #3c64c4;
+    color: #fff;
     overflow: hidden;
     position: relative;
+    display: flex;
+}
+
+.cardImage img {
+    margin-right: 36px;
+    border-radius: 50%;
+}
+
+.cardDetails h3 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.cardDetails p {
+    font-size: 18px;
+    letter-spacing: .5px;
+    margin-bottom: 12px;
+}
+
+.cardDate {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
 }
