@@ -1,8 +1,15 @@
 import React from 'react'
+import styles from './button.module.css'
 
-const Button = () => {
+interface IButton {
+  text: string
+  primary: boolean
+}
+const Button = (props: IButton) => {
   return (
-    <div>Button</div>
+    <button className={styles.button}>
+      {props.text}
+    </button>
   )
 }
 
